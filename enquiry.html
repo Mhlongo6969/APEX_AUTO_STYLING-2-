@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head > 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Submit a service inquiry or request a custom quote for your vehicle.">
+    <title>Apex Auto Styling & Mechanics | Service Enquiry</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+
+<header class="site-header">
+    <div class="header-container">
+        <h1 class="brand-title">Apex Auto Styling & Mechanics</h1>
+        <p class="brand-tagline"><em>Precision Engineering & Custom Vehicle Styling</em></p>
+        
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="nav-btn">Home</a></li>
+                <li><a href="about.html" class="nav-btn">About Us</a></li>
+                <li><a href="services.html" class="nav-btn">Services</a></li>
+                <li><a href="enquiry.html" class="nav-btn">Enquiry</a></li>
+                <li><a href="contact.html" class="nav-btn">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="enquiry-form-section">
+            <h2>Service & Quote Enquiry</h2>
+                       <p class="section-desc">Please fill out the form below to enquire about custom styling, parts, or mechanical maintenance for your vehicle.</p>
+
+            <form class="enquiry-form">
+                <div class="form-group">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="vehicle">Vehicle Make & Model (e.g., Ford Ranger, GWM P-Series):</label>
+                    <input type="text" id="vehicle" name="vehicle" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="service">Service Required:</label>
+                    <select id="service" name="service">
+                        <option value="mechanical">Mechanical Maintenance</option>
+                        <option value="styling">Aftermarket Styling & Body Upgrades</option>
+                        <option value="tuning">Off-Road & Suspension Tuning</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="details">Details / Specific Requests:</label>
+                    <textarea id="details" name="details" rows="4"></textarea>
+                </div>
+
+                <button type="submit" class="btn-cta btn-submit">Submit Enquiry</button>
+            </form>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Apex Auto Styling & Mechanics. All Rights Reserved.</p>
+        <div class="footer-nav">
+            <a href="index.html" class="btn-cta">Home</a>
+            <a href="about.html" class="btn-cta">About Us</a>
+            <a href="services.html" class="btn-cta">Services</a>
+            <a href="enquiry.html" class="btn-cta">Enquiry</a>
+            <a href="contact.html" class="btn-cta">Contact Us</a>
+        </div>
+    </footer>
+
+</body>
+</html>
+ 
